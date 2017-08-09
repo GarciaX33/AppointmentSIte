@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Appointment</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Set Up Your Appointment</h1>
+
+      <form id="appointment">
+        <div class="form-group">
+          <label for="name1">Full Name:</label>
+          <input id="name1" class="form-control" type="text">
+
+
+
+          <label for="descr1">Appointment Description:</label>
+          <input id="descr1" class="form-control" type="text">
+
+
+
+          <label for="date1">Appointment Date (MM/DD/YYYY):</label>
+          <input id="date1" class="form-control" type="text">
+
+
+
+          <label for="time1">Appointment Start Time:</label>
+          <input id="time1" class="form-control" type="text">
+
+
+          <label for="time2">Appointment End Time:</label>
+          <input id="time2" class="form-control" type="text">
+
+        <button type="submit" class="btn">Submit</button>
+      </div>
+      </form>
+      <div id="output">
+        <br>
+        <p>
+          Your Appointment for <span class="descr1"></span>
+          for <span class="name1"></span>
+          is on<span class="date1"></span>
+          at <span class="time1"></span>
+          going until <span class="time2"></span>
+
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
